@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+  color: #1b281b;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1;
+
+  @media (width > 750px) {
+    font-size: 6.5rem;
+  }
+}
+
+h2 {
+  color: #cb721c;
+}
+
+a {
+  color: #207f03;
+}
+
+a:hover,
+a:focus-visible {
+  color: #4ba92e;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+ul,
+ol {
+  color: black;
+}
+
+li {
+  margin-block: 5px;
+}
+
+section {
+  margin-block: 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-navigation ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-navigation a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus-visible {
+  color: #4676a9;
+}
+
+.wrapper {
+  max-inline-size: 755px;
+  margin-inline: auto;
+}
+
+.two-columns-layout {
+  display: grid;
+  gap: 50px;
+  margin-block-end: 50px;
+
+  @media (width > 750px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.teal-text {
+  color: #4676a9;
+}
+
+.teal-bg {
+  background-color: #4676a9;
+  border: #0b4a5a solid 8px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.climber-bg {
+  color: #ffffff;
+  background-image: url(./images/Short-steps.png);
+  padding: 20px;
+  border: #0b4a5a solid 8px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.climber {
+  margin-block-end: 40px;
+  @media (width > 750px) {
+    margin-block-end: 50px;
+  }
+}
+
+footer {
+  text-align: center;
+}
