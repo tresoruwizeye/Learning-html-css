@@ -113,6 +113,21 @@ header {
   }
 }
 
+table {
+  border-collapse: collapse;
+  margin-block: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 8px 50px;
+  word-break: break-word;
+  white-space: nowrap;
+}
+
 footer {
   text-align: center;
 }
